@@ -1,0 +1,14 @@
+{
+    "containerApps.deploymentConfigurations": [
+        {
+            "label": "healthmonitor",
+            "type": "AcrDockerBuildRequest",
+            "dockerfilePath": "Dockerfile",
+            "srcPath": ".",
+            "envPath": "",
+            "resourceGroup": "appenv-healthmonitor",
+            "containerApp": "healthmonitor",
+            "containerRegistry": "appenvhealthmonitor142ef2"
+        }
+    ]
+}
