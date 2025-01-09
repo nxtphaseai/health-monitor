@@ -31,7 +31,7 @@ export default function RootLayout({
   });
   
   console.log('App Information:', {
-    baseUrl: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001',
+    baseUrl:  process.env.NEXT_PUBLIC_API_URL || 'https://healthmonitor.icywater-62a3a3af.westeurope.azurecontainerapps.io',
     version: process.env.npm_package_version || '1.0.0',
     nextVersion: process.versions?.node,
     nodeVersion: process.version,

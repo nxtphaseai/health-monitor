@@ -23,7 +23,7 @@ interface HealthData {
   Suggestions: Suggestion[];
 }
 
-const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001';
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://healthmonitor.icywater-62a3a3af.westeurope.azurecontainerapps.io';
 
 export default function Dashboard() {
   const [healthData, setHealthData] = useState<HealthData | null>(null);
