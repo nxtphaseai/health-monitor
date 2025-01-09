@@ -13,6 +13,8 @@ export interface ReadingsResponse {
   [date: string]: HbA1cReading;
 }
 
+
+
 const STORAGE_KEY = 'healthmonitor_readings';
 
 function saveToLocalStorage(readings: ReadingsResponse): void {
