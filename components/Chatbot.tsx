@@ -15,7 +15,7 @@ interface ChatMessage {
   content: string;
 }
 
-const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://healthmonitor.icywater-62a3a3af.westeurope.azurecontainerapps.io';
+const apiUrl =  'https://healthmonitor.icywater-62a3a3af.westeurope.azurecontainerapps.io';
 
 export function BloodTestChatbot({ socket }: BloodTestChatbotProps) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
